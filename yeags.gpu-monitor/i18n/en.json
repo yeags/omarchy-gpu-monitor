@@ -1,0 +1,18 @@
+{
+  "title": "GPU Monitor",
+  "loading": "Reading GPU sensors…",
+  "empty": "No supported GPUs detected.",
+  "nvidiaUnavailable": "NVIDIA telemetry unavailable. nvidia-smi cannot communicate with the driver; check the driver and device access.",
+  "nvidiaMissing": "NVIDIA telemetry requires nvidia-smi from the matching NVIDIA driver utilities.",
+  "partial": "Available kernel sensors are shown. Unsupported metrics display —.",
+  "failed": "Unable to read GPU telemetry. Check Python 3 and the metrics helper.",
+  "utilization": "GPU utilization",
+  "memory": "VRAM",
+  "temperature": "Temperature",
+  "power": "Power draw / limit",
+  "clocks": "Core / memory clock",
+  "fan": "Fan speed",
+  "history": "Recent utilization · up to %1 samples",
+  "refresh": "Refresh",
+  "sampling": "Local sensors · sampling every %1 s"
+}
